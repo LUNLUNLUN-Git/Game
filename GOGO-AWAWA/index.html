@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>GOGO AWAWA!</title>
+    <link rel="stylesheet" href="styles.css?v=20260501publish" />
+  </head>
+  <body>
+    <main class="game-viewport">
+      <section id="loadingScreen" class="loading-screen" aria-live="polite">
+        <div class="loading-card">
+          <div class="loading-spinner" aria-hidden="true"></div>
+          <p class="loading-title">AWAWA 載入中</p>
+          <p class="loading-text">正在準備圖片與音效，請稍候...</p>
+        </div>
+      </section>
+      <section class="game-shell" aria-label="GOGO AWAWA 橫向卷軸跳躍遊戲">
+        <canvas id="game" width="1280" height="720" aria-label="GOGO AWAWA game canvas"></canvas>
+        <div class="hud" aria-live="polite">
+          <p class="score-text">分數 <strong id="score">0</strong></p>
+          <div class="hud-actions">
+            <button id="settingsButton" class="icon-button" type="button" aria-label="開啟設定"><span aria-hidden="true">⚙</span></button>
+            <button id="fullscreenButton" class="icon-button" type="button" aria-label="切換全螢幕"><span aria-hidden="true">⛶</span></button>
+          </div>
+        </div>
+        <section id="settingsPanel" class="settings-panel" aria-hidden="true">
+          <div class="settings-card">
+            <h2>遊戲設定</h2>
+            <label class="slider-row" for="sfxVolume">
+              <span>音效</span>
+              <input id="sfxVolume" class="wood-slider" type="range" min="0" max="100" value="40" />
+            </label>
+            <label class="slider-row" for="musicVolume">
+              <span>音樂</span>
+              <input id="musicVolume" class="wood-slider" type="range" min="0" max="100" value="25" />
+            </label>
+            <div class="settings-actions">
+              <button id="resumeButton" class="settings-cta" type="button">繼續遊戲</button>
+              <button id="homeButton" class="settings-cta secondary" type="button">回到首頁</button>
+            </div>
+          </div>
+        </section>
+        <section id="gameOverPanel" class="gameover-panel" aria-hidden="true">
+          <div class="gameover-card">
+            <p class="gameover-kicker">AWAWA 這次翻車了</p>
+            <h2>遊戲結束</h2>
+            <div class="gameover-stats">
+              <p>分數 <strong id="endScore">0</strong></p>
+              <p>最高分 <strong id="endBest">0</strong></p>
+            </div>
+            <p class="gameover-hint">再試一次，AWAWA 還能更快！</p>
+            <div class="settings-actions">
+              <button id="retryButton" class="settings-cta" type="button">再玩一次</button>
+              <button id="endHomeButton" class="settings-cta secondary" type="button">回到首頁</button>
+            </div>
+          </div>
+        </section>
+        <p class="hint">空白鍵 / 滑鼠點擊 跳躍，ESC 暫停</p>
+      </section>
+    </main>
+    <script src="game.js?v=20260501publish"></script>
+  </body>
+</html>
