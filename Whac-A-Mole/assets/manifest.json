@@ -1,0 +1,100 @@
+{
+  "licenseSummary": {
+    "projectCode": "MIT",
+    "agentSpriteForge": "MIT",
+    "pillow": "MIT-CMU",
+    "numpy": "BSD-3-Clause",
+    "aiGeneratedAssets": "Generated for this project; see ASSET_LICENSES.md"
+  },
+  "images": {
+    "background": {
+      "path": "assets/images/garden-bg.png"
+    },
+    "startBackground": {
+      "path": "assets/images/start-bg.png"
+    }
+  },
+  "ui": {
+    "hole": "assets/ui/hole.png",
+    "malletIcon": "assets/ui/mallet-icon.png",
+    "buttonUnified": "assets/ui/button-unified.png",
+    "startButton": "assets/ui/start-button.png",
+    "titleLogo": "assets/ui/title-logo.png",
+    "ruleCardNormal": "assets/ui/rule-card-square-normal.png",
+    "ruleCardGold": "assets/ui/rule-card-square-gold.png",
+    "ruleCardCombo": "assets/ui/rule-card-square-combo.png",
+    "ruleCardTime": "assets/ui/rule-card-square-time.png",
+    "cursorFinger": "assets/ui/cursor-finger.png",
+    "cursorFingerPc": "assets/ui/cursor-finger-pc.png",
+    "cursorFingerPress": "assets/ui/cursor-finger-press.png",
+    "cursorHammer": "assets/ui/cursor-hammer.png",
+    "cursorHammerDown": "assets/ui/cursor-hammer-down.png",
+    "topStatsFrame": "assets/ui/top-stats-frame.png",
+    "mascot": "assets/ui/mascot.png",
+    "clock": "assets/ui/clock.png",
+    "startFrame": "assets/ui/start-frame.png",
+    "rulesFrame": "assets/ui/rules-frame.png",
+    "leaderboardFrame": "assets/ui/leaderboard-frame.png",
+    "iconStart": "assets/ui/icon-start.png",
+    "iconEnd": "assets/ui/icon-end.png",
+    "iconLeaderboard": "assets/ui/icon-leaderboard.png",
+    "iconSound": "assets/ui/icon-sound.png",
+    "iconMusic": "assets/ui/icon-music.png",
+    "iconRetry": "assets/ui/icon-retry.png",
+    "iconHome": "assets/ui/icon-home.png",
+    "iconSettings": "assets/ui/icon-settings.png",
+    "iconClose": "assets/ui/icon-close.png",
+    "favicon": "assets/favicon.ico"
+  },
+  "sprites": {
+    "molePop": {
+      "framesDir": "assets/sprites/mole-pop/frames",
+      "rows": 2,
+      "cols": 3,
+      "frameSize": [256, 256],
+      "fps": 8.7
+    },
+    "moleHit": {
+      "framesDir": "assets/sprites/mole-hit/frames",
+      "rows": 2,
+      "cols": 2,
+      "frameSize": [256, 256],
+      "fps": 7.7
+    },
+    "goldMolePop": {
+      "framesDir": "assets/sprites/gold-mole-pop/frames",
+      "rows": 2,
+      "cols": 3,
+      "frameSize": [256, 256],
+      "fps": 8.7
+    },
+    "goldMoleHit": {
+      "framesDir": "assets/sprites/gold-mole-hit/frames",
+      "rows": 2,
+      "cols": 2,
+      "frameSize": [256, 256],
+      "fps": 11.8
+    },
+    "hammerSwing": {
+      "framesDir": "assets/sprites/hammer-swing/frames",
+      "rows": 1,
+      "cols": 4,
+      "frameSize": [256, 256],
+      "fps": 10.5
+    },
+    "poofFx": {
+      "framesDir": "assets/sprites/poof-fx/frames",
+      "rows": 1,
+      "cols": 4,
+      "frameSize": [256, 256],
+      "fps": 11.1
+    }
+  },
+  "archive": {
+    "path": "assets/封存",
+    "note": "Unused images are archived with their original folder structure."
+  },
+  "audio": {
+    "bgmPlaceholder": "assets/audio/bgm.mp3"
+  }
+}

@@ -1,0 +1,3 @@
+Use case: 2D sprite sheet
+Asset: gold-mole-hit 2x2 hit animation
+Prompt: cute golden mole being hit, four frames: surprised, squash impact with tiny stars, dizzy sinking, final stunned pose. Flat #FF00FF chroma key, no text, no watermark, consistent scale.
